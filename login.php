@@ -4,6 +4,7 @@ require 'includes/header.php';
 
 <main>
     <link rel="stylesheet" href="css/login.css">
+
     <div class="bg-cover">
         <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -12,6 +13,8 @@ require 'includes/header.php';
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
+
+
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block mx-auto" src="images/c1.jpeg" alt="First slide">
@@ -23,6 +26,8 @@ require 'includes/header.php';
                         <img class="d-block mx-auto" src="images/c3.jpg" alt="Third slide">
                     </div>
                 </div>
+
+
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
